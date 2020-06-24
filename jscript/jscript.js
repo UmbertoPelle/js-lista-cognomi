@@ -1,10 +1,11 @@
+var cognomi = ["pellegrino", "maradei", "cane", "gatto"];
+
 document.getElementById("btnRegistrati").addEventListener("click", function () {
   document.getElementById("listaCog").innerHTML = ""
   document.getElementById("risPosizione").innerHTML ="";
 
   //chiedete all'utente un cognome e aggiungetelo alla lista
   var posizione = 0;
-  var cognomi = ["pellegrino", "maradei", "cane", "gatto"];
   var cognomeUtente = document.getElementById("cognomeUtente").value;
 
   while (cognomeUtente === "") {
