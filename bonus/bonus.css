@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+  background-image: url("https://i.stack.imgur.com/jGlzr.png");
+}
+h1{
+  color: #ffaa07;
+}
+#btnRegistrati{
+  background-color: #fff;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: cursive;
+}
+.hidden{
+  display: none;
+}
+.show{
+  display:inline-block;
+  color: #ffaa07;
+}
+#ris{
+  font-size: 25px;
+}
+#risPosizione{
+  color: red;
+  font-size: 25px;
+  text-shadow: 2px 2px #000;
+}
+ul li{
+  list-style: none;
+  color: red;
+  font-size: 22px;
+  text-shadow: 1px 1px #000;
+
+}

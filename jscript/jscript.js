@@ -25,5 +25,6 @@ document.getElementById("btnRegistrati").addEventListener("click", function () {
     document.getElementById("listaCog").innerHTML += "<li>" + cognomi[i] + "</li>"
   }
 
-  document.getElementById("risPosizione").innerHTML ="Benvenuto, sei stato inserito in posizione " + ++posizione;
+  document.getElementById("ris").className ="show"
+  document.getElementById("risPosizione").innerHTML = ++posizione;
 });
