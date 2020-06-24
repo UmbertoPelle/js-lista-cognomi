@@ -1,4 +1,7 @@
 document.getElementById("btnRegistrati").addEventListener("click", function () {
+  document.getElementById("listaCog").innerHTML = ""
+  document.getElementById("risPosizione").innerHTML ="";
+
   //chiedete all'utente un cognome e aggiungetelo alla lista
   var posizione = 0;
   var cognomi = ["pellegrino", "maradei", "cane", "gatto"];
@@ -18,6 +21,8 @@ document.getElementById("btnRegistrati").addEventListener("click", function () {
     if (cognomi[i] == cognomeUtente) {
       posizione = i
     }
+    document.getElementById("listaCog").innerHTML += "<li>" + cognomi[i] + "</li>"
   }
-  document.getElementById("risPosizione").innerHTML="Benvenuto, sei stato inserito in posizione " + ++posizione;
+
+  document.getElementById("risPosizione").innerHTML ="Benvenuto, sei stato inserito in posizione " + ++posizione;
 });
